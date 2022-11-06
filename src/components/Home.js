@@ -1,17 +1,15 @@
-import NavBar from './NavBar'
-import StripeContent from './StripeContent';
-import FloatMenu from './FloatMenu';
-import {useGlobalContext} from '../context'
+import NavBar from "./NavBar";
+import StripeContent from "./StripeContent";
+import FloatMenu from "./FloatMenu";
 
 const Home = () => {
-  const {onOutCursor}=useGlobalContext();
   return (
-    <main >
+    <main>
       <NavBar />
       <FloatMenu />
-      <StripeContent/>
+      <StripeContent />
     </main>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
